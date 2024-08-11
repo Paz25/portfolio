@@ -71,14 +71,17 @@ p {
 .card {
     border-radius: 10px;
     height: 100%;
-    border: solid 0.5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-image {
     background-color: cornflowerblue;
     height: 240px;
     border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center;
 }
+
 
 .card-content {
     padding: 30px;
